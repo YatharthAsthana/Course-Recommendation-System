@@ -1,5 +1,6 @@
 # Course-Recommendation-System
 I have harnessed the power of Cosine Similarity and CountVectorizer for precise recommendations, with JavaScript leading our Exploratory Data Analysis. This robust webpage is crafted using Flask, ensuring seamless user interaction. 
+
 Objective of the project
 
 To build an intelligent recommendation system that suggests courses based on user preferences and similarities between courses. The system uses the Udemy dataset for reference to offer relevant course recommendations.
@@ -19,9 +20,13 @@ Methodology
 2.) Feature Extraction: CountVectorizer is used to convert course descriptions into a matrix of token counts.
 
 3.) Similarity Calculation: Cosine Similarity is employed to calculate the similarity between courses. Courses with higher similarity scores are considered more relevant to the user's interest.
+
 4.) User Interface: A user-friendly web interface is created using Flask, allowing users to input their course preferences and receive tailored recommendations.
 
 Key Features
+
 1.) Personalized Recommendations: Users receive course suggestions based on their input, enhancing their learning experience.
+
 2.) Interactive Visualizations: JavaScript-powered visualizations help users understand the dataset and the recommendation process.
+
 3.) Scalability: The system is designed to handle a growing number of courses and users efficiently.
